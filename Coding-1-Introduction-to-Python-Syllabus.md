@@ -113,10 +113,12 @@ The last ten minutes of each session from Session 2 onward are a short, graded a
 It asks you to *read* code rather than write it, which is the harder and more useful skill
 at this stage.
 
-**What you will do.** At the end of the lecture you receive a link to a small repository. It
-contains a README with the task and a single Python script, thirty or so lines long, that
-uses the concepts we covered that day — and carries no comments at all. You work through the
-script and add the comments yourself. Depending on the session, that means one of:
+**What you will do.** At the end of the lecture I publish a small assignment repository and
+give you the link. You **fork** it to your own GitHub account, which gives you your own copy
+to work in. It contains a README with the task and a single Python script, thirty or so
+lines long, that uses the concepts we covered that day — and carries no comments at all. You
+work through the script and add the comments yourself. Depending on the session, that means
+one of:
 
 - **Naming the mechanism.** Against each block, say which concept from the lecture it relies
   on and what it produces.
@@ -128,9 +130,11 @@ script and add the comments yourself. Depending on the session, that means one o
 - **Documenting a function.** Write a docstring that states what the function takes, what it
   returns, and what it assumes.
 
-Then you commit your work and push it before you leave the room. That is the whole
-assignment. There is nothing to finish at home, nothing to hand in later, and no deadline to
-track: it is done when the session ends.
+Then you commit your work and push it to your fork before you leave the room. That is the
+whole assignment. You do not need to send me anything: GitHub lists the forks of a
+repository, so I collect them from there. Give me your GitHub username once, in Session 1,
+and that is the last piece of admin you owe me. There is nothing to finish at home, nothing
+to hand in later, and no deadline to track: it is done when the session ends.
 
 You will not be marked on prose style, spelling, or how much you wrote. A good comment says
 *why* a line exists or names the mechanism at work; a poor one restates the syntax. Marking
@@ -143,8 +147,7 @@ is coarse, out of two points:
 Session 1 has no graded assignment. It is used instead to walk through the setup and the
 submission workflow, so that the mechanics are not what costs you marks in Session 2.
 
-The repositories are distributed through a system to be confirmed in Session 1. From time to
-time I will ask someone to talk me through one of their own comments.
+From time to time I will ask someone to talk me through one of their own comments.
 
 Because the final exam is closed-book and handwritten, the quizzes and these assignments
 are deliberately designed to build recall and comprehension rather than reliance on lookup.
@@ -200,9 +203,10 @@ block rather than the end of the first, so that pandas has a full session of its
 - Version control: what Git and GitHub are for, why tracking changes matters, and where
   they sit in a working data project. This is an overview, not a Git course — you will learn
   the tool properly later in the program. What we do cover in full is the one workflow you
-  need here: take the link, get the repository, edit, commit, push. Every in-class assignment
+  need here: fork the assignment repository, edit it, commit, push. Every in-class assignment
   from Session 2 onward is handed in that way, so we walk through it end to end and make sure
-  it works on your laptop before you are graded on it.
+  it works on your laptop before you are graded on it. Bring a GitHub account, or create one
+  in this session.
 - General coding principles: how to name variables, why and how to comment scripts.
 - Variables, assignment, and the primitive types (integers, floats, booleans); expressions
   and operators; string manipulation and formatting.
@@ -338,4 +342,4 @@ Adam Vig, Agoston Reguly, and Gabor Bekes. See `NOTICE.md` for details.
 
 ## Contact details
 
-Ulrich Wohak, PhD — instructor. Email address and office hours to be announced.
+Ulrich Wohak, PhD — instructor. <wohaku@ceu.edu>. Office hours to be announced.

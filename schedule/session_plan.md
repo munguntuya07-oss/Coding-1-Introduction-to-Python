@@ -26,10 +26,19 @@ Wednesdays. No final exam slot has been allocated yet.
   rubric. Use `.py` rather than `.ipynb`: a comment-only change to a notebook produces an
   unreadable JSON diff, whereas in a script `git diff` shows exactly the added lines, so
   grading is reading a diff.
-- **Distribution mechanism undecided.** Per-student repositories need creating, collecting,
-  and timestamping. GitHub Classroom is the obvious candidate and would remove the
-  "send me the link" step, but its current setup flow needs checking before committing to
-  it. Cohort size is the deciding input and is not yet known.
+- **Distribution is fork-based.** One assignment repository per graded session, published
+  at the end of the lecture; students fork it, commit to their fork, and push. Nothing is
+  emailed: GitHub lists a repository's forks, so collection is just enumerating them
+  (`gh api repos/OWNER/REPO/forks`), and each fork's compare view against the source shows
+  exactly the lines a student added. Collect GitHub usernames in Session 1 to map forks to
+  the roster.
+- **Forks of a public repository are public.** This is the weak point of the scheme, and it
+  is not AI: every student works on the same script, so a late forker can read an earlier
+  one's comments. The 10-minute in-class window limits it, but does not close it. Options,
+  cheapest first: rely on the window plus the occasional oral spot-check; vary the script
+  across two or three variants per session; or make the source repository private and add
+  students as collaborators, so forks inherit private visibility, at the cost of managing
+  access each session.
 - **Git is not taught here, but the submission workflow is.** Students learn Git properly in
   a later course. Session 1 gives an overview of version control and then covers the one
   workflow needed for the in-class assignments end to end: take the link, get the
