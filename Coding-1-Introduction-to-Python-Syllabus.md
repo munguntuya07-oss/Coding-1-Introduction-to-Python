@@ -75,7 +75,7 @@ Each session follows the same shape:
 2. Live-coded walkthrough of the session's lecture notebook(s) from `lectures/`.
 3. A 10–20 minute in-class practice notebook from `exercises/`, worked individually or in
    pairs, then discussed.
-4. The homework assignment for the coming week.
+4. The homework assignment for the coming week, from Session 2 onward.
 
 All materials are distributed through the course repository. Students clone the repository,
 create the environment with `uv sync`, download external datasets with
@@ -96,12 +96,17 @@ The final grade is based on:
 | Component | Weight | Detail |
 | --- | --- | --- |
 | Start-of-the-class quiz | 20% | 5 quizzes at the start of Sessions 2–6, 4% each. Short, closed-book, on the previous session's material. |
-| Homework submissions | 20% | 5 assignments, 4% each, issued at the end of Sessions 1–5 and due before the following session. |
+| Homework submissions | 20% | 4 assignments, 5% each, issued at the end of Sessions 2–5 and due before the following session. No homework is set in Session 1. |
 | Closed-book final exam | 60% | Written, closed-book, no computer. Covers the whole course. **No exam slot has been allocated yet** — the date will be confirmed with the registrar and announced in class. |
 
-Each homework assignment is short — roughly 10–20 minutes of focused practice on the
-session's material — and is graded for completion and for evidence of genuine effort, not
-for polish. Assignments are posted in the course repository at the end of each session.
+Session 1 is a setup and orientation session, so no homework is set. Homework begins in
+Session 2 and runs through Session 5, giving four assignments in total.
+
+Each assignment is short — roughly 10–20 minutes of focused practice on the session's
+material — and is graded for completion and for evidence of genuine effort, not for polish.
+Assignments are distributed and submitted through the CEU online course platform. The
+platform, the course page, and the exact submission deadlines will be confirmed in
+Session 1.
 
 Because the final exam is closed-book and handwritten, in-class practice and homework are
 deliberately designed to build recall of syntax rather than reliance on lookup.

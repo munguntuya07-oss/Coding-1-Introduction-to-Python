@@ -19,28 +19,31 @@ Wednesdays. No final exam slot has been allocated yet.
 
 ## Open tasks
 
-- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 5
+- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 4
   homework assignments (20%), and a closed-book final (60%). None of these are written. The
   repository contains no quiz, homework, assignment, or exam file of any kind.
+- **Homework runs in Sessions 2-5 only.** Session 1 is setup and orientation, so no homework
+  is set; the four assignments are issued at the end of Sessions 2, 3, 4, and 5, at 5% each.
 - **Homework seeds are partial.** Seven lecture READMEs carry short upstream practice
   prompts under `## Homework` — lecture02, lecture03, lecture04, lecture07, lecture08,
-  lecture09, lecture10. These are usable starting points, but coverage does not match the
-  session plan:
+  lecture09, lecture10. Coverage against the four homework sessions:
 
   | Session | Lectures | Homework seed available? |
   | --- | --- | --- |
-  | 1 | lecture00, lecture01 | No — both READMEs state there is no homework |
   | 2 | lecture02, lecture03 | Yes, two prompts |
   | 3 | lecture04 | Yes, one prompt |
   | 4 | lecture05, lecture06 | No — neither README has a `## Homework` section |
   | 5 | lecture07, lecture08, lecture09 | Yes, three prompts |
 
-  Sessions 1 and 4 need assignments written from scratch. Note that lecture08's prompt is
-  written to be done together with lecture06, so the bootstrap exercise could be split to
-  cover Session 4's control-flow material.
+  Session 4 is the only one needing an assignment written from scratch. Note that
+  lecture08's prompt is written to be done together with lecture06, so the bootstrap
+  exercise could be split to cover Session 4's control-flow material.
 - **Seed prompts point at external OSF downloads.** Several reference OSF URLs directly
   rather than `data/raw/` after `scripts/fetch_data.py`; they need rewriting to the
   repository's local-data convention before being issued.
+- **Submission platform is a placeholder.** The syllabus says assignments are distributed
+  and submitted through "the CEU online course platform" without naming it. The instructor
+  will confirm the actual system; update the syllabus then.
 
 ## Notes
 
