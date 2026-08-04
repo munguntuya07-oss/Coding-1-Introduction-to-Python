@@ -8,42 +8,40 @@ and times are taken from the TimeEdit allocation for `ECBS5208A_T1_2026`, Group 
 There is no reading week inside the course: the six sessions run on six consecutive
 Wednesdays. No final exam slot has been allocated yet.
 
-| Session | Date | Topic | Lecture materials | In-class exercises |
-| --- | --- | --- | --- | --- |
-| 1 | Wed 16 Sep | Setup and general coding principles | `lectures/lecture00-intro`, `lectures/lecture01-coding-basics` | `lecture01-coding-basics-i`, `lecture01-coding-basics-ii` |
-| 2 | Wed 23 Sep | Basic data structures and file I/O | `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO` | `lecture02-basic-structures-i`, `lecture02-basic-structures-ii`, `lecture03-data-io-i`, `lecture03-data-io-ii` |
-| 3 | Wed 30 Sep | Data containers: pandas | `lectures/lecture04-pandas-basics` | `lecture04-pandas-basics-i`, `lecture04-pandas-basics-ii`, `lecture04-pandas-munging-i`, `lecture04-pandas-munging-ii` |
-| 4 | Wed 7 Oct | Plotting (matplotlib first, then plotnine) and control flow | `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals` | `lecture05-matplotlib`, `lecture05-plotnine-i`, `lecture05-plotnine-ii`, `lecture06-control-flow-i`, `lecture06-control-flow-ii` |
-| 5 | Wed 14 Oct | Functions, exception handling, descriptive statistics | `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`, `lectures/lecture07-data-exploration` (part 1) | `lecture08-functions-i`, `lecture08-functions-ii`, `lecture09-exceptions`, `lecture07-data-exploration-i` |
-| 6 | Wed 21 Oct | Association, hypothesis tests, wrap-up | `lectures/lecture07-data-exploration` (part 2); optional `lectures/lecture10-intro-to-regression` | `lecture07-data-exploration-ii`; optional `lecture10-regression-i`, `lecture10-regression-ii` |
+| Session | Date | Topic | Lecture materials | Graded exercise | Voluntary practice (at home) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Wed 16 Sep | Setup and general coding principles | `lectures/lecture00-intro`, `lectures/lecture01-coding-basics` | none - Git walkthrough and practice commit | `lecture01-coding-basics-i`, `lecture01-coding-basics-ii` |
+| 2 | Wed 23 Sep | Basic data structures and file I/O | `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO` | predict-then-verify on dict/set operations | `lecture02-basic-structures-i`, `lecture02-basic-structures-ii`, `lecture03-data-io-i`, `lecture03-data-io-ii` |
+| 3 | Wed 30 Sep | Data containers: pandas | `lectures/lecture04-pandas-basics` | name the concept over a pandas pipeline | `lecture04-pandas-basics-i`, `lecture04-pandas-basics-ii`, `lecture04-pandas-munging-i`, `lecture04-pandas-munging-ii` |
+| 4 | Wed 7 Oct | Plotting (matplotlib first, then plotnine) and control flow | `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals` | comment a figure script layer by layer; annotate loop state | `lecture05-matplotlib`, `lecture05-plotnine-i`, `lecture05-plotnine-ii`, `lecture06-control-flow-i`, `lecture06-control-flow-ii` |
+| 5 | Wed 14 Oct | Functions, exception handling, descriptive statistics | `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`, `lectures/lecture07-data-exploration` (part 1) | docstring three functions; explain a raised exception | `lecture08-functions-i`, `lecture08-functions-ii`, `lecture09-exceptions`, `lecture07-data-exploration-i` |
+| 6 | Wed 21 Oct | Association, hypothesis tests, wrap-up | `lectures/lecture07-data-exploration` (part 2); optional `lectures/lecture10-intro-to-regression` | name the concept over correlation and bin-scatter | `lecture07-data-exploration-ii`; optional `lecture10-regression-i`, `lecture10-regression-ii` |
 
 ## Open tasks
 
-- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 4
-  homework assignments (20%), and a closed-book final (60%). None of these are written. The
-  repository contains no quiz, homework, assignment, or exam file of any kind.
-- **Homework runs in Sessions 2-5 only.** Session 1 is setup and orientation, so no homework
-  is set; the four assignments are issued at the end of Sessions 2, 3, 4, and 5, at 5% each.
-- **Homework seeds are partial.** Seven lecture READMEs carry short upstream practice
-  prompts under `## Homework` — lecture02, lecture03, lecture04, lecture07, lecture08,
-  lecture09, lecture10. Coverage against the four homework sessions:
-
-  | Session | Lectures | Homework seed available? |
-  | --- | --- | --- |
-  | 2 | lecture02, lecture03 | Yes, two prompts |
-  | 3 | lecture04 | Yes, one prompt |
-  | 4 | lecture05, lecture06 | No — neither README has a `## Homework` section |
-  | 5 | lecture07, lecture08, lecture09 | Yes, three prompts |
-
-  Session 4 is the only one needing an assignment written from scratch. Note that
-  lecture08's prompt is written to be done together with lecture06, so the bootstrap
-  exercise could be split to cover Session 4's control-flow material.
-- **Seed prompts point at external OSF downloads.** Several reference OSF URLs directly
-  rather than `data/raw/` after `scripts/fetch_data.py`; they need rewriting to the
-  repository's local-data convention before being issued.
-- **Submission platform is a placeholder.** The syllabus says assignments are distributed
-  and submitted through "the CEU online course platform" without naming it. The instructor
-  will confirm the actual system; update the syllabus then.
+- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 5
+  code-reading exercise repositories (20%), and a closed-book final (60%). None are written.
+- **Five template repositories to build**, one per graded session. Each holds a README with
+  the task, a 25-40 line uncommented `.py` script using that session's concepts, and a
+  rubric. Use `.py` rather than `.ipynb`: a comment-only change to a notebook produces an
+  unreadable JSON diff, whereas in a script `git diff` shows exactly the added lines, so
+  grading is reading a diff.
+- **Distribution mechanism undecided.** Per-student repositories need creating, collecting,
+  and timestamping. GitHub Classroom is the obvious candidate and would remove the
+  "send me the link" step, but its current setup flow needs checking before committing to
+  it. Cohort size is the deciding input and is not yet known.
+- **Git is a hard prerequisite from Session 2.** `lecture00` currently covers only why
+  version control matters, not how to use it. Session 1 must now teach clone, commit, and
+  push, and get GitHub authentication working for every student; authentication is the part
+  that will eat the clock. A browser-based fallback (editing and committing in the GitHub
+  web UI) avoids local setup entirely if the room runs short.
+- **AI carve-out is deliberate.** The voluntary practice notebooks are not collected and
+  carry no marks, so AI use there is permitted. The prohibition binds the quizzes, the
+  code-reading exercises, and the final exam. Note this diverges from the study guide's
+  blanket wording, which says AI is not allowed in the course at all.
+- **Registrar wording.** The study guide calls the 20% component "Homework submissions".
+  Nothing is now submitted from home. The weight is unchanged, but the label should either
+  be reworded with the registrar or left as the formal name for the component.
 
 ## Notes
 
