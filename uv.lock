@@ -210,7 +210,7 @@ wheels = [
 ]
 
 [[package]]
-name = "coding-1-data-management-and-analysis-with-python"
+name = "coding-1-introduction-to-python"
 version = "2026.0.0"
 source = { virtual = "." }
 dependencies = [

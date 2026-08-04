@@ -1,6 +1,10 @@
-# Coding 1: Data Management and Analysis with Python
+# Coding 1: Introduction to Python
 
-Course materials for the MSc Business Analytics Coding 1 course, running from **September 15, 2026** to **December 12, 2026**.
+Course materials for **ECBS5208 Coding 1: Introduction to Python** at CEU, Department of
+Economics. The course runs from **September 16, 2026** to **October 21, 2026**.
+
+The full syllabus is in
+[`Coding-1-Introduction-to-Python-Syllabus.md`](Coding-1-Introduction-to-Python-Syllabus.md).
 
 ## Course Overview
 
@@ -12,9 +16,9 @@ This course will **not** use artificial intelligence tools or large language mod
 
 ## Course Structure
 
-The course meets twice per week in 1.5-hour sessions. The repository includes a 24-session teaching plan with a `READING_WEEK_TBD` placeholder in `schedule/session_plan.md`.
+The course meets once per week for 100 minutes, on Wednesdays 15:40-17:20, for six sessions. The ordered plan is in `schedule/session_plan.md`.
 
-The first part of the course introduces the Python working environment, notebooks, variables, expressions, strings, and core data structures. The middle sessions develop file I/O, pandas, data cleaning, visualization, control flow, functions, and exceptions. The final sessions introduce exploratory statistics and basic regression workflows.
+The first sessions introduce the Python working environment, notebooks, variables, expressions, strings, core data structures, and file I/O. The middle sessions develop pandas, data cleaning, visualization, and control flow. The final sessions cover functions, exceptions, and exploratory data analysis. Introductory regression is optional material that previews Coding 2.
 
 ## Course Materials
 
@@ -25,6 +29,7 @@ The first part of the course introduces the Python working environment, notebook
 - `scripts/check_no_pip.py`: validation script that keeps student-facing materials on the `uv` workflow
 - `scripts/check_notebooks.py`: notebook validation for JSON, kernel metadata, imports, syntax, and local data references
 - `schedule/session_plan.md`: ordered session plan for the 2026 course
+- `Coding-1-Introduction-to-Python-Syllabus.md`: the course syllabus, aligned with the CEU study guide entry for ECBS5208
 
 ## Learning Outcomes
 

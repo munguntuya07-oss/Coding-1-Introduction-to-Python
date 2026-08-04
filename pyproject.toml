@@ -1,7 +1,7 @@
 [project]
-name = "coding-1-data-management-and-analysis-with-python"
+name = "coding-1-introduction-to-python"
 version = "2026.0.0"
-description = "Course materials for Coding 1: Data Management and Analysis with Python."
+description = "Course materials for Coding 1: Introduction to Python (ECBS5208)."
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
