@@ -156,8 +156,8 @@ than the end of the first, so that pandas has a full session of its own.
 - Variables, assignment, and the primitive types (integers, floats, booleans); expressions
   and operators; string manipulation and formatting.
 - Materials: `lectures/lecture00-intro`, `lectures/lecture01-coding-basics`.
-- In class: `exercises/session03-coding-basics-i.ipynb`,
-  `exercises/session04-coding-basics-ii.ipynb`.
+- In class: `exercises/lecture01-coding-basics-i.ipynb`,
+  `exercises/lecture01-coding-basics-ii.ipynb`.
 
 **Session 2 — 23 September · Basic data structures and file I/O**
 
@@ -168,8 +168,8 @@ than the end of the first, so that pandas has a full session of its own.
   appending, and overwriting; working directories, listing files, OS-specific paths,
   creating directories.
 - Materials: `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO`.
-- In class: `exercises/session05-basic-structures-i.ipynb` through
-  `exercises/session08-data-io-ii.ipynb`.
+- In class: `exercises/lecture02-basic-structures-i.ipynb` through
+  `exercises/lecture03-data-io-ii.ipynb`.
 
 **Session 3 — 30 September · Data containers: pandas**
 
@@ -180,8 +180,8 @@ than the end of the first, so that pandas has a full session of its own.
   handling duplicates, chaining operations, and sorting.
 - Data: hotels-vienna, hotels-europe.
 - Materials: `lectures/lecture04-pandas-basics`.
-- In class: `exercises/session09-pandas-basics-i.ipynb` through
-  `exercises/session12-pandas-munging-ii.ipynb`.
+- In class: `exercises/lecture04-pandas-basics-i.ipynb` through
+  `exercises/lecture04-pandas-munging-ii.ipynb`.
 
 ### Sessions 4–6
 
@@ -198,9 +198,9 @@ than the end of the first, so that pandas has a full session of its own.
 - Conditionals and control flow: the anatomy of `if`/`else`, `for` loops, `while` loops, and
   list comprehensions.
 - Materials: `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals`.
-- In class, in this order: `exercises/session16-matplotlib.ipynb`,
-  `exercises/session14-plotnine-i.ipynb`, `exercises/session15-plotnine-ii.ipynb`,
-  `exercises/session17-control-flow-i.ipynb`, `exercises/session18-control-flow-ii.ipynb`.
+- In class, in this order: `exercises/lecture05-matplotlib.ipynb`,
+  `exercises/lecture05-plotnine-i.ipynb`, `exercises/lecture05-plotnine-ii.ipynb`,
+  `exercises/lecture06-control-flow-i.ipynb`, `exercises/lecture06-control-flow-ii.ipynb`.
 
 **Session 5 — 14 October · Functions, exception handling, and descriptive statistics**
 
@@ -214,9 +214,9 @@ than the end of the first, so that pandas has a full session of its own.
   bandwidth.
 - Materials: `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`,
   `lectures/lecture07-data-exploration` (first part).
-- In class: `exercises/session21-functions-i.ipynb`,
-  `exercises/session22-functions-ii.ipynb`, `exercises/session23-exceptions.ipynb`,
-  `exercises/session19-data-exploration-i.ipynb`.
+- In class: `exercises/lecture08-functions-i.ipynb`,
+  `exercises/lecture08-functions-ii.ipynb`, `exercises/lecture09-exceptions.ipynb`,
+  `exercises/lecture07-data-exploration-i.ipynb`.
 
 **Session 6 — 21 October · Association, hypothesis tests, and wrap-up**
 
@@ -231,8 +231,8 @@ than the end of the first, so that pandas has a full session of its own.
   deals. This material is not examinable in Coding 1.
 - Materials: `lectures/lecture07-data-exploration` (second part), and optionally
   `lectures/lecture10-intro-to-regression`.
-- In class: `exercises/session20-data-exploration-ii.ipynb`, and optionally
-  `exercises/session24-regression-i.ipynb`, `exercises/session25-regression-ii.ipynb`.
+- In class: `exercises/lecture07-data-exploration-ii.ipynb`, and optionally
+  `exercises/lecture10-regression-i.ipynb`, `exercises/lecture10-regression-ii.ipynb`.
 
 ## Software and course materials
 
