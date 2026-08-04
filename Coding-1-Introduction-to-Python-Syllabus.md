@@ -66,21 +66,29 @@ awareness, and handle common data-workflow failures with defensive coding and ex
 ## Learning activities and teaching methods
 
 The course will be conducted as a series of interactive lectures during which we go through
-concepts and applications together. In addition, students will have in-class quizzes and
-homework exercises.
+concepts and applications together. In addition, students will have in-class quizzes and a
+graded in-class assignment at the end of each lecture.
 
 Each session follows the same shape:
 
 1. A short start-of-class quiz on the previous session (from Session 2 onward).
 2. Live-coded walkthrough of the session's lecture notebook(s) from `lectures/`.
-3. A 10–20 minute in-class practice notebook from `exercises/`, worked individually or in
-   pairs, then discussed.
-4. The homework assignment for the coming week, from Session 2 onward.
+3. A 10-minute graded in-class assignment, completed and committed before you leave the
+   room (from Session 2 onward).
 
 All materials are distributed through the course repository. Students clone the repository,
 create the environment with `uv sync`, download external datasets with
 `uv run python scripts/fetch_data.py`, and work in JupyterLab. Students type their own code:
 notebooks are worked through by hand, not by pasting completed solutions.
+
+**Voluntary practice.** The repository also contains a set of short practice notebooks in
+`exercises/`, one or two per lecture. These are optional, are not collected, and are not
+graded. They exist purely so that you can rehearse the material at your own pace. Work
+through them at home if you find them useful, and skip them if you do not.
+
+The no-AI policy applies to them as it does to everything else in this course. They are
+where you build the syntax recall that the closed-book exam tests, so they are precisely the
+place where handing the work to a tool costs you most.
 
 ## Assessment
 
@@ -96,31 +104,69 @@ The final grade is based on:
 | Component | Weight | Detail |
 | --- | --- | --- |
 | Start-of-the-class quiz | 20% | 5 quizzes at the start of Sessions 2–6, 4% each. Short, closed-book, on the previous session's material. |
-| Homework submissions | 20% | 4 assignments, 5% each, issued at the end of Sessions 2–5 and due before the following session. No homework is set in Session 1. |
+| In-class assignments | 20% | 5 assignments, 4% each, at the end of Sessions 2–6. Completed and committed during class; nothing is done or submitted from home. |
 | Closed-book final exam | 60% | Written, closed-book, no computer. Covers the whole course. **No exam slot has been allocated yet** — the date will be confirmed with the registrar and announced in class. |
 
-Session 1 is a setup and orientation session, so no homework is set. Homework begins in
-Session 2 and runs through Session 5, giving four assignments in total.
+### In-class assignments
 
-Each assignment is short — roughly 10–20 minutes of focused practice on the session's
-material — and is graded for completion and for evidence of genuine effort, not for polish.
-Assignments are distributed and submitted through the CEU online course platform. The
-platform, the course page, and the exact submission deadlines will be confirmed in
-Session 1.
+The last ten minutes of each session from Session 2 onward are a short, graded assignment.
+It asks you to *read* code rather than write it, which is the harder and more useful skill
+at this stage.
 
-Because the final exam is closed-book and handwritten, in-class practice and homework are
-deliberately designed to build recall of syntax rather than reliance on lookup.
+**What you will do.** At the end of the lecture I publish a small assignment repository and
+give you the link. You **fork** it to your own GitHub account, which gives you your own copy
+to work in. It contains a README with the task and a single Python script, thirty or so
+lines long, that uses the concepts we covered that day — and carries no comments at all. You
+work through the script and add the comments yourself. Depending on the session, that means
+one of:
+
+- **Naming the mechanism.** Against each block, say which concept from the lecture it relies
+  on and what it produces.
+- **Predicting, then verifying.** Before running anything, write down the value you expect a
+  line to produce. Commit that. Then run the script and, in a second commit, correct the
+  predictions you got wrong. Being wrong costs you nothing here; not trying does.
+- **Explaining a failure.** The script raises an error. On the offending line, say why.
+  Do not fix it.
+- **Documenting a function.** Write a docstring that states what the function takes, what it
+  returns, and what it assumes.
+
+Then you commit your work and push it to your fork before you leave the room. That is the
+whole assignment. You do not need to send me anything: GitHub lists the forks of a
+repository, so I collect them from there. Give me your GitHub username once, in Session 1,
+and that is the last piece of admin you owe me. There is nothing to finish at home, nothing
+to hand in later, and no deadline to track: it is done when the session ends.
+
+You will not be marked on prose style, spelling, or how much you wrote. A good comment says
+*why* a line exists or names the mechanism at work; a poor one restates the syntax. Marking
+is coarse, out of two points:
+
+- **2** — comments explain intent or name the mechanism at work.
+- **1** — comments are present but restate the syntax (`# loop over the list`).
+- **0** — no commit inside the class window, or no comments added.
+
+Session 1 has no graded assignment. It is used instead to walk through the setup and the
+submission workflow, so that the mechanics are not what costs you marks in Session 2.
+
+From time to time I will ask someone to talk me through one of their own comments.
+
+Because the final exam is closed-book and handwritten, the quizzes and these assignments
+are deliberately designed to build recall and comprehension rather than reliance on lookup.
 
 ## AI policy
 
 **The use of AI is not allowed in this course.**
 
 This course is introductory, and we are mostly going to be learning a lot of basic syntax.
-For that reason, the use of AI is not permitted for any part of the course: in-class
-exercises, homework submissions, quizzes, or the final exam. You are expected to write your
-code by hand, read error messages yourself, and work out what went wrong. That difficulty is
-the point — it is where the learning happens, and the closed-book final exam is set on the
-assumption that you have done it.
+For that reason, the use of AI is not permitted for any part of the course: the
+start-of-class quizzes, the in-class assignments, the final exam, and the voluntary practice
+notebooks alike. You are expected to write your code by hand, read error messages yourself,
+and work out what went wrong. That difficulty is the point — it is where the learning
+happens, and the closed-book final exam is set on the assumption that you have done it.
+
+The prohibition covers the voluntary practice notebooks even though they are never
+collected. That is not an oversight. Those notebooks are your rehearsal for an exam you will
+sit without a computer, and they are the one place where the cost of using a tool falls
+entirely on you.
 
 I define "AI" here as LLM and other machine learning methods including ChatGPT, GitHub
 Copilot, Bard, Claude, Grammarly, DeepL, and any other available tools. This includes
@@ -141,23 +187,35 @@ with an AI tool.
 
 ## Course contents
 
-The course runs over six 100-minute sessions. Lecture material lives in `lectures/`,
-in-class practice notebooks in `exercises/`. The two blocks below follow the study guide's
-grouping, with one adjustment: plotting is delivered at the start of the second block rather
-than the end of the first, so that pandas has a full session of its own.
+The course runs over six 100-minute sessions. Lecture material lives in `lectures/`. Each
+session ends with a graded in-class assignment from Session 2 onward. The voluntary
+practice notebooks listed under each session are optional homework: work through them if you
+find them useful, but they are never collected. The two blocks below follow the study
+guide's grouping, with one adjustment: plotting is delivered at the start of the second
+block rather than the end of the first, so that pandas has a full session of its own.
 
 ### Sessions 1–3
 
 **Session 1 — 16 September · Setup and general coding principles**
 
 - Python, JupyterLab, and VS Code; the `uv`-managed project environment; running a script
-  from the console; why version control matters and what Git and GitHub offer.
+  from the console.
+- Version control: what Git and GitHub are for, why tracking changes matters, and where
+  they sit in a working data project. This is an overview, not a Git course — you will learn
+  the tool properly later in the program. What we do cover in full is the one workflow you
+  need here: fork the assignment repository, edit it, commit, push. Every in-class assignment
+  from Session 2 onward is handed in that way, so we walk through it end to end and make sure
+  it works on your laptop before you are graded on it. Bring a GitHub account, or create one
+  in this session.
 - General coding principles: how to name variables, why and how to comment scripts.
 - Variables, assignment, and the primitive types (integers, floats, booleans); expressions
   and operators; string manipulation and formatting.
 - Materials: `lectures/lecture00-intro`, `lectures/lecture01-coding-basics`.
-- In class: `exercises/lecture01-coding-basics-i.ipynb`,
+- Voluntary practice: `exercises/lecture01-coding-basics-i.ipynb`,
   `exercises/lecture01-coding-basics-ii.ipynb`.
+- **No graded assignment.** The session closes with a walkthrough of the submission
+  workflow and a first practice commit, so the mechanics are settled before they carry
+  marks.
 
 **Session 2 — 23 September · Basic data structures and file I/O**
 
@@ -168,8 +226,10 @@ than the end of the first, so that pandas has a full session of its own.
   appending, and overwriting; working directories, listing files, OS-specific paths,
   creating directories.
 - Materials: `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO`.
-- In class: `exercises/lecture02-basic-structures-i.ipynb` through
+- Voluntary practice: `exercises/lecture02-basic-structures-i.ipynb` through
   `exercises/lecture03-data-io-ii.ipynb`.
+- **In-class assignment (10 min):** predict-then-verify. Record the value you expect each
+  dictionary and set operation to produce, commit, then run and correct what you got wrong.
 
 **Session 3 — 30 September · Data containers: pandas**
 
@@ -180,8 +240,10 @@ than the end of the first, so that pandas has a full session of its own.
   handling duplicates, chaining operations, and sorting.
 - Data: hotels-vienna, hotels-europe.
 - Materials: `lectures/lecture04-pandas-basics`.
-- In class: `exercises/lecture04-pandas-basics-i.ipynb` through
+- Voluntary practice: `exercises/lecture04-pandas-basics-i.ipynb` through
   `exercises/lecture04-pandas-munging-ii.ipynb`.
+- **In-class assignment (10 min):** name the concept. Comment each step of an uncommented
+  pandas munging pipeline with the operation it performs and why.
 
 ### Sessions 4–6
 
@@ -198,9 +260,11 @@ than the end of the first, so that pandas has a full session of its own.
 - Conditionals and control flow: the anatomy of `if`/`else`, `for` loops, `while` loops, and
   list comprehensions.
 - Materials: `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals`.
-- In class, in this order: `exercises/lecture05-matplotlib.ipynb`,
+- Voluntary practice, in this order: `exercises/lecture05-matplotlib.ipynb`,
   `exercises/lecture05-plotnine-i.ipynb`, `exercises/lecture05-plotnine-ii.ipynb`,
   `exercises/lecture06-control-flow-i.ipynb`, `exercises/lecture06-control-flow-ii.ipynb`.
+- **In-class assignment (10 min):** comment a figure script layer by layer, saying what each
+  call adds, and annotate a loop with the state of its variables.
 
 **Session 5 — 14 October · Functions, exception handling, and descriptive statistics**
 
@@ -214,9 +278,11 @@ than the end of the first, so that pandas has a full session of its own.
   bandwidth.
 - Materials: `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`,
   `lectures/lecture07-data-exploration` (first part).
-- In class: `exercises/lecture08-functions-i.ipynb`,
+- Voluntary practice: `exercises/lecture08-functions-i.ipynb`,
   `exercises/lecture08-functions-ii.ipynb`, `exercises/lecture09-exceptions.ipynb`,
   `exercises/lecture07-data-exploration-i.ipynb`.
+- **In-class assignment (10 min):** write a docstring for each of three functions, and explain
+  on the offending line why a given script raises its exception. Do not fix it.
 
 **Session 6 — 21 October · Association, hypothesis tests, and wrap-up**
 
@@ -231,8 +297,9 @@ than the end of the first, so that pandas has a full session of its own.
   deals. This material is not examinable in Coding 1.
 - Materials: `lectures/lecture07-data-exploration` (second part), and optionally
   `lectures/lecture10-intro-to-regression`.
-- In class: `exercises/lecture07-data-exploration-ii.ipynb`, and optionally
+- Voluntary practice: `exercises/lecture07-data-exploration-ii.ipynb`, and optionally
   `exercises/lecture10-regression-i.ipynb`, `exercises/lecture10-regression-ii.ipynb`.
+- **In-class assignment (10 min):** name the concept over a correlation and bin-scatter script.
 
 ## Software and course materials
 
@@ -275,4 +342,4 @@ Adam Vig, Agoston Reguly, and Gabor Bekes. See `NOTICE.md` for details.
 
 ## Contact details
 
-Ulrich Wohak, PhD — instructor. Email address and office hours to be announced.
+Ulrich Wohak, PhD — instructor. <wohaku@ceu.edu>. Office hours to be announced.

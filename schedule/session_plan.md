@@ -8,42 +8,50 @@ and times are taken from the TimeEdit allocation for `ECBS5208A_T1_2026`, Group 
 There is no reading week inside the course: the six sessions run on six consecutive
 Wednesdays. No final exam slot has been allocated yet.
 
-| Session | Date | Topic | Lecture materials | In-class exercises |
-| --- | --- | --- | --- | --- |
-| 1 | Wed 16 Sep | Setup and general coding principles | `lectures/lecture00-intro`, `lectures/lecture01-coding-basics` | `lecture01-coding-basics-i`, `lecture01-coding-basics-ii` |
-| 2 | Wed 23 Sep | Basic data structures and file I/O | `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO` | `lecture02-basic-structures-i`, `lecture02-basic-structures-ii`, `lecture03-data-io-i`, `lecture03-data-io-ii` |
-| 3 | Wed 30 Sep | Data containers: pandas | `lectures/lecture04-pandas-basics` | `lecture04-pandas-basics-i`, `lecture04-pandas-basics-ii`, `lecture04-pandas-munging-i`, `lecture04-pandas-munging-ii` |
-| 4 | Wed 7 Oct | Plotting (matplotlib first, then plotnine) and control flow | `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals` | `lecture05-matplotlib`, `lecture05-plotnine-i`, `lecture05-plotnine-ii`, `lecture06-control-flow-i`, `lecture06-control-flow-ii` |
-| 5 | Wed 14 Oct | Functions, exception handling, descriptive statistics | `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`, `lectures/lecture07-data-exploration` (part 1) | `lecture08-functions-i`, `lecture08-functions-ii`, `lecture09-exceptions`, `lecture07-data-exploration-i` |
-| 6 | Wed 21 Oct | Association, hypothesis tests, wrap-up | `lectures/lecture07-data-exploration` (part 2); optional `lectures/lecture10-intro-to-regression` | `lecture07-data-exploration-ii`; optional `lecture10-regression-i`, `lecture10-regression-ii` |
+| Session | Date | Topic | Lecture materials | In-class assignment | Voluntary practice (at home) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Wed 16 Sep | Setup and general coding principles | `lectures/lecture00-intro`, `lectures/lecture01-coding-basics` | none - workflow walkthrough and practice commit | `lecture01-coding-basics-i`, `lecture01-coding-basics-ii` |
+| 2 | Wed 23 Sep | Basic data structures and file I/O | `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO` | predict-then-verify on dict/set operations | `lecture02-basic-structures-i`, `lecture02-basic-structures-ii`, `lecture03-data-io-i`, `lecture03-data-io-ii` |
+| 3 | Wed 30 Sep | Data containers: pandas | `lectures/lecture04-pandas-basics` | name the concept over a pandas pipeline | `lecture04-pandas-basics-i`, `lecture04-pandas-basics-ii`, `lecture04-pandas-munging-i`, `lecture04-pandas-munging-ii` |
+| 4 | Wed 7 Oct | Plotting (matplotlib first, then plotnine) and control flow | `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals` | comment a figure script layer by layer; annotate loop state | `lecture05-matplotlib`, `lecture05-plotnine-i`, `lecture05-plotnine-ii`, `lecture06-control-flow-i`, `lecture06-control-flow-ii` |
+| 5 | Wed 14 Oct | Functions, exception handling, descriptive statistics | `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`, `lectures/lecture07-data-exploration` (part 1) | docstring three functions; explain a raised exception | `lecture08-functions-i`, `lecture08-functions-ii`, `lecture09-exceptions`, `lecture07-data-exploration-i` |
+| 6 | Wed 21 Oct | Association, hypothesis tests, wrap-up | `lectures/lecture07-data-exploration` (part 2); optional `lectures/lecture10-intro-to-regression` | name the concept over correlation and bin-scatter | `lecture07-data-exploration-ii`; optional `lecture10-regression-i`, `lecture10-regression-ii` |
 
 ## Open tasks
 
-- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 4
-  homework assignments (20%), and a closed-book final (60%). None of these are written. The
-  repository contains no quiz, homework, assignment, or exam file of any kind.
-- **Homework runs in Sessions 2-5 only.** Session 1 is setup and orientation, so no homework
-  is set; the four assignments are issued at the end of Sessions 2, 3, 4, and 5, at 5% each.
-- **Homework seeds are partial.** Seven lecture READMEs carry short upstream practice
-  prompts under `## Homework` — lecture02, lecture03, lecture04, lecture07, lecture08,
-  lecture09, lecture10. Coverage against the four homework sessions:
-
-  | Session | Lectures | Homework seed available? |
-  | --- | --- | --- |
-  | 2 | lecture02, lecture03 | Yes, two prompts |
-  | 3 | lecture04 | Yes, one prompt |
-  | 4 | lecture05, lecture06 | No — neither README has a `## Homework` section |
-  | 5 | lecture07, lecture08, lecture09 | Yes, three prompts |
-
-  Session 4 is the only one needing an assignment written from scratch. Note that
-  lecture08's prompt is written to be done together with lecture06, so the bootstrap
-  exercise could be split to cover Session 4's control-flow material.
-- **Seed prompts point at external OSF downloads.** Several reference OSF URLs directly
-  rather than `data/raw/` after `scripts/fetch_data.py`; they need rewriting to the
-  repository's local-data convention before being issued.
-- **Submission platform is a placeholder.** The syllabus says assignments are distributed
-  and submitted through "the CEU online course platform" without naming it. The instructor
-  will confirm the actual system; update the syllabus then.
+- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 5
+  in-class assignment repositories (20%), and a closed-book final (60%). None are written.
+- **Five template repositories to build**, one per graded session. Each holds a README with
+  the task, a 25-40 line uncommented `.py` script using that session's concepts, and a
+  rubric. Use `.py` rather than `.ipynb`: a comment-only change to a notebook produces an
+  unreadable JSON diff, whereas in a script `git diff` shows exactly the added lines, so
+  grading is reading a diff.
+- **Distribution is fork-based.** One assignment repository per graded session, published
+  at the end of the lecture; students fork it, commit to their fork, and push. Nothing is
+  emailed: GitHub lists a repository's forks, so collection is just enumerating them
+  (`gh api repos/OWNER/REPO/forks`), and each fork's compare view against the source shows
+  exactly the lines a student added. Collect GitHub usernames in Session 1 to map forks to
+  the roster.
+- **Forks of a public repository are public.** This is the weak point of the scheme, and it
+  is not AI: every student works on the same script, so a late forker can read an earlier
+  one's comments. The 10-minute in-class window limits it, but does not close it. Options,
+  cheapest first: rely on the window plus the occasional oral spot-check; vary the script
+  across two or three variants per session; or make the source repository private and add
+  students as collaborators, so forks inherit private visibility, at the cost of managing
+  access each session.
+- **Git is not taught here, but the submission workflow is.** Students learn Git properly in
+  a later course. Session 1 gives an overview of version control and then covers the one
+  workflow needed for the in-class assignments end to end: take the link, get the
+  repository, edit, commit, push. Getting GitHub authentication working on every laptop is
+  the part that will eat the clock. Keep a browser-based fallback ready - editing and
+  committing in the GitHub web UI needs no local setup at all - in case the room runs short
+  or a student's machine will not cooperate.
+- **AI policy is blanket, matching the study guide.** No AI anywhere in the course,
+  including the voluntary practice notebooks, even though those are never collected and use
+  cannot be verified. The syllabus states the rationale rather than the enforcement.
+- **Registrar wording.** The study guide calls the 20% component "Homework submissions".
+  The syllabus now calls it "In-class assignments", since nothing is done or submitted from
+  home. The weight is unchanged; the label may want aligning with the registrar.
 
 ## Notes
 
