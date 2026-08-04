@@ -17,6 +17,31 @@ Wednesdays. No final exam slot has been allocated yet.
 | 5 | Wed 14 Oct | Functions, exception handling, descriptive statistics | `lectures/lecture08-functions`, `lectures/lecture09-exception-handling`, `lectures/lecture07-data-exploration` (part 1) | `session21-functions-i`, `session22-functions-ii`, `session23-exceptions`, `session19-data-exploration-i` |
 | 6 | Wed 21 Oct | Association, hypothesis tests, wrap-up | `lectures/lecture07-data-exploration` (part 2); optional `lectures/lecture10-intro-to-regression` | `session20-data-exploration-ii`; optional `session24-regression-i`, `session25-regression-ii` |
 
+## Open tasks
+
+- **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 5
+  homework assignments (20%), and a closed-book final (60%). None of these are written. The
+  repository contains no quiz, homework, assignment, or exam file of any kind.
+- **Homework seeds are partial.** Seven lecture READMEs carry short upstream practice
+  prompts under `## Homework` — lecture02, lecture03, lecture04, lecture07, lecture08,
+  lecture09, lecture10. These are usable starting points, but coverage does not match the
+  session plan:
+
+  | Session | Lectures | Homework seed available? |
+  | --- | --- | --- |
+  | 1 | lecture00, lecture01 | No — both READMEs state there is no homework |
+  | 2 | lecture02, lecture03 | Yes, two prompts |
+  | 3 | lecture04 | Yes, one prompt |
+  | 4 | lecture05, lecture06 | No — neither README has a `## Homework` section |
+  | 5 | lecture07, lecture08, lecture09 | Yes, three prompts |
+
+  Sessions 1 and 4 need assignments written from scratch. Note that lecture08's prompt is
+  written to be done together with lecture06, so the bootstrap exercise could be split to
+  cover Session 4's control-flow material.
+- **Seed prompts point at external OSF downloads.** Several reference OSF URLs directly
+  rather than `data/raw/` after `scripts/fetch_data.py`; they need rewriting to the
+  repository's local-data convention before being issued.
+
 ## Notes
 
 - **Exercise filenames are legacy.** The `sessionNN-` prefixes come from an earlier

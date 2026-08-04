@@ -99,9 +99,9 @@ The final grade is based on:
 | Homework submissions | 20% | 5 assignments, 4% each, issued at the end of Sessions 1–5 and due before the following session. |
 | Closed-book final exam | 60% | Written, closed-book, no computer. Covers the whole course. **No exam slot has been allocated yet** — the date will be confirmed with the registrar and announced in class. |
 
-Homework assignments are drawn from the `## Homework` sections of the lecture READMEs and
-are typically 10–20 minutes of focused practice. They are graded for completion and for
-evidence of genuine effort, not for polish.
+Each homework assignment is short — roughly 10–20 minutes of focused practice on the
+session's material — and is graded for completion and for evidence of genuine effort, not
+for polish. Assignments are posted in the course repository at the end of each session.
 
 Because the final exam is closed-book and handwritten, in-class practice and homework are
 deliberately designed to build recall of syntax rather than reliance on lookup.
