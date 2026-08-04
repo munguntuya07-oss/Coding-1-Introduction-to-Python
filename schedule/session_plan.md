@@ -8,9 +8,9 @@ and times are taken from the TimeEdit allocation for `ECBS5208A_T1_2026`, Group 
 There is no reading week inside the course: the six sessions run on six consecutive
 Wednesdays. No final exam slot has been allocated yet.
 
-| Session | Date | Topic | Lecture materials | Graded exercise | Voluntary practice (at home) |
+| Session | Date | Topic | Lecture materials | In-class assignment | Voluntary practice (at home) |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Wed 16 Sep | Setup and general coding principles | `lectures/lecture00-intro`, `lectures/lecture01-coding-basics` | none - Git walkthrough and practice commit | `lecture01-coding-basics-i`, `lecture01-coding-basics-ii` |
+| 1 | Wed 16 Sep | Setup and general coding principles | `lectures/lecture00-intro`, `lectures/lecture01-coding-basics` | none - workflow walkthrough and practice commit | `lecture01-coding-basics-i`, `lecture01-coding-basics-ii` |
 | 2 | Wed 23 Sep | Basic data structures and file I/O | `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO` | predict-then-verify on dict/set operations | `lecture02-basic-structures-i`, `lecture02-basic-structures-ii`, `lecture03-data-io-i`, `lecture03-data-io-ii` |
 | 3 | Wed 30 Sep | Data containers: pandas | `lectures/lecture04-pandas-basics` | name the concept over a pandas pipeline | `lecture04-pandas-basics-i`, `lecture04-pandas-basics-ii`, `lecture04-pandas-munging-i`, `lecture04-pandas-munging-ii` |
 | 4 | Wed 7 Oct | Plotting (matplotlib first, then plotnine) and control flow | `lectures/lecture05-graphs-basics`, `lectures/lecture06-conditionals` | comment a figure script layer by layer; annotate loop state | `lecture05-matplotlib`, `lecture05-plotnine-i`, `lecture05-plotnine-ii`, `lecture06-control-flow-i`, `lecture06-control-flow-ii` |
@@ -20,7 +20,7 @@ Wednesdays. No final exam slot has been allocated yet.
 ## Open tasks
 
 - **No assessment materials exist yet.** The grading scheme requires 5 quizzes (20%), 5
-  code-reading exercise repositories (20%), and a closed-book final (60%). None are written.
+  in-class assignment repositories (20%), and a closed-book final (60%). None are written.
 - **Five template repositories to build**, one per graded session. Each holds a README with
   the task, a 25-40 line uncommented `.py` script using that session's concepts, and a
   rubric. Use `.py` rather than `.ipynb`: a comment-only change to a notebook produces an
@@ -30,18 +30,19 @@ Wednesdays. No final exam slot has been allocated yet.
   and timestamping. GitHub Classroom is the obvious candidate and would remove the
   "send me the link" step, but its current setup flow needs checking before committing to
   it. Cohort size is the deciding input and is not yet known.
-- **Git is a hard prerequisite from Session 2.** `lecture00` currently covers only why
-  version control matters, not how to use it. Session 1 must now teach clone, commit, and
-  push, and get GitHub authentication working for every student; authentication is the part
-  that will eat the clock. A browser-based fallback (editing and committing in the GitHub
-  web UI) avoids local setup entirely if the room runs short.
-- **AI carve-out is deliberate.** The voluntary practice notebooks are not collected and
-  carry no marks, so AI use there is permitted. The prohibition binds the quizzes, the
-  code-reading exercises, and the final exam. Note this diverges from the study guide's
-  blanket wording, which says AI is not allowed in the course at all.
+- **Git is not taught here, but the submission workflow is.** Students learn Git properly in
+  a later course. Session 1 gives an overview of version control and then covers the one
+  workflow needed for the in-class assignments end to end: take the link, get the
+  repository, edit, commit, push. Getting GitHub authentication working on every laptop is
+  the part that will eat the clock. Keep a browser-based fallback ready - editing and
+  committing in the GitHub web UI needs no local setup at all - in case the room runs short
+  or a student's machine will not cooperate.
+- **AI policy is blanket, matching the study guide.** No AI anywhere in the course,
+  including the voluntary practice notebooks, even though those are never collected and use
+  cannot be verified. The syllabus states the rationale rather than the enforcement.
 - **Registrar wording.** The study guide calls the 20% component "Homework submissions".
-  Nothing is now submitted from home. The weight is unchanged, but the label should either
-  be reworded with the registrar or left as the formal name for the component.
+  The syllabus now calls it "In-class assignments", since nothing is done or submitted from
+  home. The weight is unchanged; the label may want aligning with the registrar.
 
 ## Notes
 
