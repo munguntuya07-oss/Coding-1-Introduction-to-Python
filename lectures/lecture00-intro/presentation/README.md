@@ -2,14 +2,17 @@
 
 [Open the course introduction slides](course-introduction.pdf).
 
-The opening takes about 18 minutes before setup and programming. It contains 16 main
+The opening takes about 19 minutes before setup and programming. It contains 17 main
 slides and two reference slides. Instructor information and course administration come
 first, followed by the learning goals, Python, and the project workflow.
 
 ## Course information
 
 - Six teaching sessions, 16 September to 21 October 2026.
-- Five quizzes in Sessions 2–6 contribute 20% of the grade.
+- Five closed-book, multiple-choice quizzes on Moodle in Sessions 2–6 contribute 20%
+  of the grade (4% each). They open five minutes after class starts and remain open
+  for five minutes: 15:45–15:50 for our 15:40 start. Students must be on time and
+  physically present in class when taking the quiz.
 - Five in-class assignments in Sessions 2–6 contribute 20%.
 - The written, closed-book final exam contributes 60% and takes place on
   Friday, 6 November 2026 at 13:30. It does not replace a teaching session.
