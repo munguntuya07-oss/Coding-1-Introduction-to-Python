@@ -2,7 +2,7 @@
 
 [Open the course introduction slides](course-introduction.pdf).
 
-The opening takes about 19 minutes before setup and programming. It contains 17 main
+The opening takes about 20 minutes before setup and programming. It contains 18 main
 slides and two reference slides. Instructor information and course administration come
 first, followed by the learning goals, Python, and the project workflow.
 
@@ -22,6 +22,30 @@ first, followed by the learning goals, Python, and the project workflow.
 The syllabus and session plan govern the delivery details. Unlike the Stata classroom
 setup, Coding 1 uses the supplied course repository and teaches the GitHub submission
 workflow. The presentation contains no exam questions or solutions.
+
+## In-class assignment recipe
+
+Slides 6–7 explain the assignment workflow:
+
+1. The instructor keeps each assignment private until it starts, then makes it public
+   and pins it on [the instructor's GitHub profile](https://github.com/ulrichwohak).
+2. Students open the pinned assignment and fork it to their own GitHub account.
+3. Students clone **their own fork** onto their computer. Each new assignment needs a
+   new fork and clone. `git pull` only updates an existing local clone.
+4. Students open that assignment folder, read the README, and think through the script.
+   They follow the task's instructions about when to run it.
+5. Students add the requested comments or docstrings and save, keeping executable code
+   unchanged. Predict-then-verify tasks require the prediction commit before execution.
+6. Students stage, commit, and push their work to their fork before class ends, then
+   check on GitHub that the comments arrived. No pull request or email is needed.
+
+Students share their GitHub username in Session 1 so the instructor can identify their
+forks. That session's submission practice is ungraded.
+
+**Visibility:** forks of public repositories are public, so classmates can see pushed
+answers. Making the original repository private again does not make those forks private.
+This release workflow does not provide confidential submissions.
+See [GitHub's fork visibility documentation](https://docs.github.com/en/pull-requests/reference/forks).
 
 ## Instructor files
 
