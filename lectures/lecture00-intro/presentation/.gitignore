@@ -1,0 +1,5 @@
+/build/
+# Instructor source and notes stay local unless deliberately shared.
+/course-introduction.tex
+/course-introduction-presenter.pdf
+/Makefile

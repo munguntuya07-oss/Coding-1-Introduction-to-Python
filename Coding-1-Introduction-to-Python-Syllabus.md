@@ -105,7 +105,7 @@ The final grade is based on:
 | --- | --- | --- |
 | Start-of-the-class quiz | 20% | 5 quizzes at the start of Sessions 2–6, 4% each. Short, closed-book, on the previous session's material. |
 | In-class assignments | 20% | 5 assignments, 4% each, at the end of Sessions 2–6. Completed and committed during class; nothing is done or submitted from home. |
-| Closed-book final exam | 60% | Written, closed-book, no computer. Covers the whole course. **No exam slot has been allocated yet** — the date will be confirmed with the registrar and announced in class. |
+| Closed-book final exam | 60% | Written, closed-book, no computer. Covers the whole course. **Friday, 6 November 2026 at 13:30.** The exam is separate from the six teaching sessions. |
 
 ### In-class assignments
 

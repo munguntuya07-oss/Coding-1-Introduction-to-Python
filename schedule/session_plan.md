@@ -6,7 +6,8 @@ Six sessions, Wednesdays 15:40-17:20 (100 minutes), 16 September to 21 October 2
 and times are taken from the TimeEdit allocation for `ECBS5208A_T1_2026`, Group A. Room TBC.
 
 There is no reading week inside the course: the six sessions run on six consecutive
-Wednesdays. No final exam slot has been allocated yet.
+Wednesdays. The final exam takes place on **Friday, 6 November 2026 at 13:30**,
+separately from the six teaching sessions.
 
 | Session | Date | Topic | Lecture materials | In-class assignment | Voluntary practice (at home) |
 | --- | --- | --- | --- | --- | --- |

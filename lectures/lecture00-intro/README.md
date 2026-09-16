@@ -1,5 +1,13 @@
 # Lecture 00: Introduction to Python and Jupyter notebook
 
+## Course introduction
+
+Begin with the [course introduction slides](presentation/course-introduction.pdf)
+for the opening 15–20 minutes. They cover the instructor, course administration,
+assessment, learning goals, and the Python workflow before setup and live coding.
+The [presentation notes](presentation/README.md) describe the local Beamer source and
+presenter version.
+
 ## Motivation
 
 In this course, we focus on Python and Jupyter Notebook. This means you won’t learn anything about R, Julia, or any other programming language useful for data science. They’re also excellent choices, and in practice, most data science teams use a mix of languages, often at least Python and R.
