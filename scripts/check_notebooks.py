@@ -16,7 +16,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK_ROOTS = (ROOT / "lectures", ROOT / "exercises")
 EXPECTED_KERNEL = {"display_name": "Python 3 (ipykernel)", "language": "python", "name": "python3"}
-LOCAL_MODULES = {"sample_module"}
 DATA_REF_RE = re.compile(r'DATA_DIR\s*/\s*["\']([^"\']+)["\']')
 CACHE_DIR = Path(tempfile.gettempdir()) / "coding1-notebook-check-cache"
 os.environ.setdefault("MPLCONFIGDIR", str(CACHE_DIR / "matplotlib"))
@@ -70,7 +69,7 @@ def check_notebook(path: Path) -> list[str]:
             except SyntaxError as exc:
                 errors.append(f"{rel}: code cell {index} has syntax error: {exc}")
 
-    for module in sorted(modules - LOCAL_MODULES):
+    for module in sorted(modules):
         if importlib.util.find_spec(module) is None:
             errors.append(f"{rel}: import not available: {module}")
             continue

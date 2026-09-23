@@ -221,15 +221,16 @@ block rather than the end of the first, so that pandas has a full session of its
 
 - The four Python collections: lists, tuples, sets, dictionaries. Inspecting, searching,
   modifying, and iterating; set operations; casting between collection types.
-- JSON strings to dictionaries and back; importing modules and writing your own.
+- JSON strings to dictionaries and back.
 - Opening files for reading, reading text line by line, handling encodings; writing,
   appending, and overwriting; working directories, listing files, OS-specific paths,
   creating directories.
 - Materials: `lectures/lecture02-basic-structures`, `lectures/lecture03-data-IO`.
 - Voluntary practice: `exercises/lecture02-basic-structures-i.ipynb` through
   `exercises/lecture03-data-io-ii.ipynb`.
-- **In-class assignment (10 min):** predict-then-verify. Record the value you expect each
-  dictionary and set operation to produce, commit, then run and correct what you got wrong.
+- **In-class assignment (10 min):** predict-then-verify. Read a short script using variables,
+  a dictionary lookup, and simple arithmetic. Comment the code, predict its two printed
+  values, commit, then run and correct any wrong prediction.
 
 **Session 3 — 30 September · Data containers: pandas**
 

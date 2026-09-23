@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Learning how to program is a long journey. The good news is that once you learn the very basics you can write your first programs. In these programs you may need some simple variables, but nothing more. As you move forward and want to write a little more complex solutions you will add more complexity to your data. Also, your solution may need other functionalities which needed to be added to your workspace when your script runs. 
+Learning how to program is a long journey. The good news is that once you learn the very basics you can write your first programs. In these programs you may need some simple variables, but nothing more. As you move forward and want to write a little more complex solutions you will add more complexity to your data.
 
 
 ## This lecture
@@ -16,9 +16,6 @@ This lecture covers `collections` of data and their usage:
 
 In addition, we introduce `JSON`, a lightweight format for storing and transferring data. 
 
-Finally, we show how to import, use, and write `modules`. 
-
-
 ## Learning outcomes
 
 After completing this [`basic_structures.ipynb`](basic_structures.ipynb) lecture students will 
@@ -31,9 +28,7 @@ After completing this [`basic_structures.ipynb`](basic_structures.ipynb) lecture
 - be able to inspect dictionary items and select particular dictionary values by keys
 - be able to cast lists into sets
 - be able to do set operations
-- be able to cast JSON-format strings into dictionaries and vice versa
-- be able to import and use modules
-- write and import their own modules.
+- be able to cast JSON-format strings into dictionaries and vice versa.
 
 
 ## Datasets used
